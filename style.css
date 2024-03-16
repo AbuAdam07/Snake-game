@@ -1,0 +1,28 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    max-height: 700px;
+    background-color: #1b1b1b;
+}
+body h1{
+    color: #d9f72f;
+    text-align: center;
+}
+.insider{
+    display: flex;
+    justify-content: center;
+}
+canvas{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #1b1b1b;
+    background: linear-gradient(to right, green, yellow);
+}
+
